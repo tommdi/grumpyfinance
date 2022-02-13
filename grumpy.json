@@ -1,0 +1,31 @@
+{
+  "name": "Grumpy Finance",
+  "network": "1",
+  "symbol": "GRUMPY",
+  "skin": "grumpy finance",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x30BCd71b8d21FE830e493b30e90befbA29de9114",
+        "symbol": "🐟",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x93b2fff814fcaeffb01406e80b4ecd89ca6a021b",
+        "symbol": "GRUMPY",
+        "decimals": 18
+      }
+    }
+  ],
+  "members": [
+    "0xa56891cfBd0175E6Fc46Bf7d647DE26100e95C78"
+  ],
+  "filters": {
+    "defaultTab": "all",
+    "minScore": 1
+  }
+}
